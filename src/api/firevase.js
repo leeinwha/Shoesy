@@ -14,7 +14,6 @@ const auth = getAuth();
 const provider = new GoogleAuthProvider();
 const database = getDatabase(app);
 
-    console.log(user);
 export function login() {
   signInWithPopup(auth, provider).catch(console.error);
 }
