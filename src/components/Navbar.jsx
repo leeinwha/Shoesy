@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { BsFillPencilFill } from 'react-icons/bs';
 import { FiShoppingBag } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import { login, logout, onUserStateChange } from '../api/firevase';
 import User from './User';
 import Button from './ui/Button';
 import { useAuthContext } from './context/AuthContext';
