@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from 'react';
-import { login, logout, onUserStateChange } from '../../api/firevase';
+import { login, logout, onUserStateChange } from '../api/firevase';
 
 const AuthContext = createContext();
 
